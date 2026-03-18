@@ -28,7 +28,6 @@ export const getAll = async () => {
   console.log(messages)
   return messages
 }
-getAll()
 
 export const postMessage = async () => {
   const newMessage = {
@@ -52,4 +51,3 @@ export const postMessage = async () => {
 
   return { id: newID.name, newMessage }
 }
-getAll()
