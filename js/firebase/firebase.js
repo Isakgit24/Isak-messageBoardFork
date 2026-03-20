@@ -30,12 +30,11 @@ export const getAll = async () => {
   return messages
 }
 
-export const postMessage = async ({ name, message }) => {
+export const postMessage = async (message, name, title) => {
   const newMessage = {
-    message,
-    name,
-    likes: 0,
-    dislikes: 0
+    message: message,
+    name: name,
+    title: title
   }
   const options = {
     method: 'POST',

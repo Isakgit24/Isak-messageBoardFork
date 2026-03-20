@@ -1,5 +1,4 @@
-import { postMessage } from '../firebase/firebase.js'
-import { renderFlower } from '../rendering/renderflowers.js'
+import { createFlowerForm } from './messageForm.js'
 
 const isInSitesFolder = () =>
   window.location.pathname.toLowerCase().includes('/sites/')
@@ -116,7 +115,7 @@ const getDefaultLinks = () => {
     { label: 'Messageboard', href: './index.html' },
     { label: 'About', href: './sites/about.html' },
     { label: 'Contact', href: './sites/contact.html' },
-    { label: 'Plant flower', href: './sites/contact.html' }
+    { label: 'Plant a flower', href: '#' }
   ]
 }
 
@@ -136,6 +135,14 @@ export const renderHeader = links => {
   const nav = document.createElement('nav')
   navLinks.forEach(({ label, href }) => {
     const anchor = document.createElement('a')
+
+    if (label === 'Plant a flower') {
+      anchor.addEventListener('click', e => {
+        e.preventDefault()
+        createFlowerForm()
+      })
+    }
+
     const background = document.createElement('img')
     const p = document.createElement('p')
     background.src = imagePath
