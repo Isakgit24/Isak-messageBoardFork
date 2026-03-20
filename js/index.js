@@ -9,7 +9,6 @@ async function initPage () {
   await addStyling()
   const data = await getAll()
   renderFlowers(data)
-  renderPost()
 }
 
 initPage()
