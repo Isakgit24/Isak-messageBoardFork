@@ -3,7 +3,7 @@ const RABBIT_SIZE = 48
 const isInSitesFolder = () =>
   window.location.pathname.toLowerCase().includes('/sites/')
 
-const ANIMAL_GIFS = ['pixel-rabbit-rabbit.gif', 'bee-pixel.gif']
+const ANIMAL_GIFS = ['pixel-rabbit-rabbit.gif', 'bee-pixel.gif', 'fox.gif']
 
 const basePath = isInSitesFolder() ? '../img/animals' : './img/animals'
 
@@ -56,7 +56,7 @@ function spawnRabbit (garden) {
 
   window.setInterval(() => {
     moveRabbit(rabbit, garden)
-  }, 1400)
+  }, 2000)
 }
 
 export function initRabbitControl () {
