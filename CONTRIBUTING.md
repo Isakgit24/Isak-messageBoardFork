@@ -10,8 +10,9 @@
 2. ~~A user should see all the posts as flowers on the page. When clicking on the flower it should show the post and the answers~~
 - ~~hovering on a flower should show the title of the post.~~
 3. Be able to answer a post, this should appear as a comment under the original post.
-4. Be able to like/dislike posts and answers. This should show as a heart with numbers och a weeds around the flower. If a post gets 10 dislikes it should be shown as a withering flower.
-7. Add a postbox that will give you notifications if you have recieved a comment on one of your posts or answers. This should be right outside your cabin (if cabin is implemeted). 
+4. Be able to like/dislike posts and answers. 
+5. Add a postbox that will give you notifications if you have recieved a comment on one of your posts or answers. This should be right outside your cabin (if cabin is implemeted).
+6. 
 
 
 ## Features we want!
@@ -19,4 +20,5 @@
 1. ~~The page should gradualy change to darkmode over time (3 min) then do the same to light again (day/night cycle)~~
 2. ~~Be able to spawn animals that will run around in the garden.~~
 3. ~~Be able to relocate the flowers.~~
-4. Have a house in the garden beside the flowers that is clickable. when the house is clicked a popup will show up with all your liked posts. you should be able to access the posts and comment/see comments.
+4. we want the flower to look witherd if a post gets 10 dislikes.
+5. we want a tool box where you can choose between garden tools that you can do stuff with like a shovel to move the flower etc.
