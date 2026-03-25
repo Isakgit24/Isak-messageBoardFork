@@ -56,8 +56,8 @@ async function showTermsPopup (username) {
       '<li>No offensive or abusive content.</li>' +
       '<li>Do not share private or personal data.</li>' +
       '<li>Use this app according to local laws.</li>' +
-      // '<li>Garden team may revise these terms of service at any time without notice. By using this site, you are agreeing to be bound by the then current version of these terms of service.</li>'
-      ' <li>Failure to comply with these terms may result in removal of your account.</li>' +
+      '<li>Garden team may revise these terms of service at any time without notice. </li>' +
+      '<li>Failure to comply with these terms may result in removal of your account.</li>' +
       '<li>Have fun and enjoy the garden!</li>'
 
     const checkboxWrapper = document.createElement('label')
